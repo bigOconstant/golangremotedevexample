@@ -1,6 +1,6 @@
 ### Vscode remote development golang example
 
-###$ Instructions
+### Instructions
 
 1. Make sure you have the remote development extension installed in vscode. [Click here for more info](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
 2. Open up this folder in VSCode
