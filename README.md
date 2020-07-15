@@ -1,4 +1,4 @@
-### Vscode remote development golang example
+### Vscode remote development node example
 
 ### Instructions
 
@@ -12,4 +12,4 @@ If it's your first time running it will take a few minutes to load because it ne
 
 It will load faster the next time
 
-##### Click the arrow icon on the left and the debug at the top and run your go app!
+##### Click the arrow icon on the left and the debug at the top and run your node app!

@@ -2,12 +2,14 @@
 
 version: '3.4'
 services:
-  goapp:
+  nodeapp:
     entrypoint: /bin/bash
+    ports:
+      - "3000:3000" # map the pors you need
     build:
       context: .
       dockerfile: Dockerfile
     command:  -c "tail -f /dev/null"
     user: root
     volumes:
-      - ./:/go/src/goapp
+      - ./:/code
