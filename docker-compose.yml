@@ -5,7 +5,7 @@ services:
   nodeapp:
     entrypoint: /bin/bash
     ports:
-      - "3000:3000" # map the pors you need
+      - "3000:3000" # map the ports you need
     build:
       context: .
       dockerfile: Dockerfile
