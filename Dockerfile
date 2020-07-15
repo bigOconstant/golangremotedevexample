@@ -1,9 +1,9 @@
 FROM node
 
-# literally do nothing
-
-# lets update debian. you can add a upgrade if you want
+# need to install express
 RUN  npm install express
+
+# go ahead and update
 RUN apt-get update
 
 
